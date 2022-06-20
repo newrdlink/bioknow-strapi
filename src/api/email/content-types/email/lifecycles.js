@@ -4,8 +4,8 @@ module.exports = {
     const { name, phone, text } = result
     try {
       await strapi.plugin('email').service('email').send({
-        to: 'romandidukh@gmail.com',
-        // to: 'lisvra@mail.ru',
+        // to: 'romandidukh@gmail.com',
+        to: 'lisvra@mail.ru',
         from: 'newrdlink@yandex.ru',
         subject: 'Репетитор по биологии - форма связи с сайта',
         html: `
