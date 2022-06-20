@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "articles",
+  "collectionName": "services",
   "info": {
-    "singularName": "article",
-    "pluralName": "articles",
-    "displayName": "articles",
+    "singularName": "service",
+    "pluralName": "services",
+    "displayName": "services",
     "description": ""
   },
   "options": {
@@ -18,13 +18,14 @@
     "subtitle": {
       "type": "string"
     },
-    "article": {
+    "text": {
       "type": "richtext"
     },
-    "mainImage": {
-      "type": "string"
-    },
     "image": {
+      "type": "string",
+      "required": true
+    },
+    "imageMain": {
       "allowedTypes": [
         "images",
         "files",

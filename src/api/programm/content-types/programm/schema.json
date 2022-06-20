@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "articles",
+  "collectionName": "programms",
   "info": {
-    "singularName": "article",
-    "pluralName": "articles",
-    "displayName": "articles",
+    "singularName": "programm",
+    "pluralName": "programms",
+    "displayName": "programms",
     "description": ""
   },
   "options": {
@@ -15,16 +15,13 @@
     "title": {
       "type": "string"
     },
-    "subtitle": {
-      "type": "string"
-    },
-    "article": {
+    "text": {
       "type": "richtext"
     },
-    "mainImage": {
+    "image": {
       "type": "string"
     },
-    "image": {
+    "imageProgramm": {
       "allowedTypes": [
         "images",
         "files",
@@ -33,6 +30,9 @@
       ],
       "type": "media",
       "multiple": false
+    },
+    "caption": {
+      "type": "string"
     }
   }
 }
